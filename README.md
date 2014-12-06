@@ -14,6 +14,11 @@ FP paradigms in JavaScript is often the correct solution.
 
 ### The Challenge
 You will write a script that reads 3 command line arguments:
-1. first divisor
-2. second divisor
-3. upper bound
+
+1. ***first divisor*** - This is the first divisor you will check against the dividend.
+2. ***second divisor*** - This is the second divisor you will check against the dividend.
+3. ***upper bound*** - This is the maximum dividend.
+
+You script will cycle through the range of `[0..<upper bound>]` and print one of the following strings:
+
+
