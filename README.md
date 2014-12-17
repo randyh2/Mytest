@@ -5,6 +5,15 @@ Welcome to the gates of Mordor, should you be granted entry you wil be one step 
 to joining one of the most exciting development teams in Las Vegas.  There are 
 two challenges that guard this gate and you must solve them both to be granted entry.
 
+In order to submit your application for entry you must:
+
+1. [fork](https://help.github.com/articles/fork-a-repo/) this repository.  
+2. Develop your solutions.
+3. Write a [Markdown](https://help.github.com/articles/github-flavored-markdown/) 
+   formatted how-to so that we can run all of your solutions.
+4. Commit (`git commit`) and Push (`git push`) your code.
+5. Submit your code to us via a [Pull Request](https://help.github.com/articles/using-pull-requests/).
+
 Challenge #1: Fizz Buzz
 ------------------------
 This is an old one but a good one with a little twist.  That twist is that your 
