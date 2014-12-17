@@ -7,7 +7,7 @@ two challenges that guard this gate and you must solve them both to be granted e
 
 In order to submit your application for entry you must:
 
-1. [fork](https://help.github.com/articles/fork-a-repo/) this repository.  
+1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository.  
 2. Develop your solutions.
 3. Write a [Markdown](https://help.github.com/articles/github-flavored-markdown/) 
    formatted how-to so that we can run all of your solutions.
