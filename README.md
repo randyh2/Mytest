@@ -66,7 +66,7 @@ statically typed languages:
 * [Swift] (http://www.apple.com/swift/)
 * [OCaml] (https://ocaml.org/)
 
-Extra credit if you also implement in:
+Extra credit if you also implement in one or more of the following:
 
 * [Erlang] (http://learnyousomeerlang.com/content)
 * [LOLCODE] (http://lolcode.org/)
