@@ -63,7 +63,14 @@ Then you may choose to implement it in one of the following compiled,
 statically typed languages:
 
 * [Rust](http://www.rust-lang.org)
-* [C](http://en.wikibooks.org/wiki/C_Programming)
+* [Swift] (http://www.apple.com/swift/)
+* [OCaml] (https://ocaml.org/)
+
+Extra credit if you also implement in:
+
+* [Erlang] (http://learnyousomeerlang.com/content)
+* [LOLCODE] (http://lolcode.org/)
+* [Shakespeare] (http://shakespearelang.sourceforge.net/)
 
 For this challenge you will take in a text file that is given to you as a 
 command line argument.  That text file will be composed of several lines of
