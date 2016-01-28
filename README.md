@@ -63,11 +63,11 @@ Then you may choose to implement it in one of the following compiled,
 statically typed languages:
 
 * [Rust](http://www.rust-lang.org)
-* [Swift] (http://www.apple.com/swift/)
 * [OCaml] (https://ocaml.org/)
 
 Extra credit if you also implement in one or more of the following:
 
+* [Swift] (http://www.apple.com/swift/)
 * [Erlang] (http://learnyousomeerlang.com/content)
 * [LOLCODE] (http://lolcode.org/)
 * [Shakespeare] (http://shakespearelang.sourceforge.net/)
