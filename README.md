@@ -22,7 +22,7 @@ We want to know your understanding of Functional Programming as we use JavaScrip
 extensively and utilizing FP paradigms in JavaScript is often the correct solution. 
 
 ### The Challenge
-You will write a script that reads 3 command line arguments:
+You will write a script that reads 3 [command line arguments](https://en.wikipedia.org/wiki/Command-line_interface#Arguments):
 
 1. ***first divisor*** - This is the first divisor you will check against the 
 													dividend.
@@ -73,7 +73,7 @@ Extra credit if you also implement in one or more of the following:
 * [Shakespeare] (http://shakespearelang.sourceforge.net/)
 
 For this challenge you will take in a text file that is given to you as a 
-command line argument.  That text file will be composed of several lines of
+[command line argument](https://en.wikipedia.org/wiki/Command-line_interface#Arguments).  That text file will be composed of several lines of
 strings.  You must take each line and determine if that line is a palindrome,
 if it is, then you will print `YES`, else you will print `NO`.  Then you will 
 print a `|`, then the line sorted in reverse lexical order without the white 
