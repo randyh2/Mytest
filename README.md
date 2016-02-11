@@ -1,9 +1,11 @@
 Mordor Challenge
 ================
 
-Welcome to the gates of Mordor, should you be granted entry you wil be one step closer
-to joining one of the most exciting development teams in Las Vegas.  There are 
-two challenges that guard this gate and you must solve them both to be granted entry.
+**HALT! You have reached the Gates of Mordor! Who goes there?!?** 
+
+A naive-ish n00b? Perhaps a wizard in training? Or we could be in the presence of a rare Code-Fu Master. Your name was selected by the magical Goblet of ~~Fire~~<sup>tm</sup> Applicants so there must be *something* about you...
+
+The first test of your meddle will be to recreate the mysterious Sage of FizzBuzz. This will gain you access to the Sphinx of Wordplay who, if you can write a program to defeat her never ending wit, will grant you passage back to our land and an audience with the High Council of planet Dev Team to continue on to the final stage of the Trials.
 
 In order to submit your application for entry you must:
 
@@ -14,15 +16,12 @@ In order to submit your application for entry you must:
 4. Commit (`git commit`) and Push (`git push`) your code.
 5. Submit your code to us via a [Pull Request](https://help.github.com/articles/using-pull-requests/).
 
-Challenge #1: Fizz Buzz
+Trial #1: The Sage of Fizz Buzz
 ------------------------
-This is an old one but a good one with a little twist.  That twist is that your 
-solution must be coded in [Haskell](https://www.haskell.org/haskellwiki/Haskell). 
-We want to know your understanding of Functional Programming as we use JavaScript
-extensively and utilizing FP paradigms in JavaScript is often the correct solution. 
+The only human to pass through these gates is the famed Sage of Fizz Buzz. Using a tool we lovingly call [Haskell](https://www.haskell.org/haskellwiki/Haskell) during this, the era of Functional Programming, you must recreate the magic contained within this sage. Our world is almost completely comprised of JavaScript and FP is the key to properly utilizing its strengths. This paradigm is what allowed the sage to pass unharmed.
 
-### The Challenge
-You will write a script that reads 3 [command line arguments](https://en.wikipedia.org/wiki/Command-line_interface#Arguments):
+### Mission Breakdown
+The gate throws 3 numbers at any potential entrant. Based on the patterns below your creation will need take any 3 numbers and match the necessary output. Thus you will write a script that reads 3 [command line arguments](https://en.wikipedia.org/wiki/Command-line_interface#Arguments):
 
 1. ***first divisor*** - This is the first divisor you will check against the 
 													dividend.
@@ -48,31 +47,31 @@ FizzBuzz
 Fizz
 ```
 
-Challenge #2: Palindrome and Reverse Lexical Sort
+Trial #2: The Sphinx
 -------------------------------------------------
-This challenge is a combination of two different challenges.  Here we want to 
-test your understanding of strings and their representation in different
-languages. We would like you to complete this challenge in 2 different languages.
-You may choose to implement the challenge in one of the following interpreted, 
-dynamically typed languages:
+For this trial, you will need to get past The Sphinx using string manipulation. In order to beat the sphinx you must understand palindromes, as that is only what she truly speaks. Your creation will need to be able to tell what are truly her words or not by returning if a string is a palindrome. Then, whether palindrome or not, you must quickly send the string back to her in reverse lexicographical order to confuse her enough to best her at her own deadly game. 
+
+In order to thoroughly confound the Sphinx you must build your creation in two different languages.
+
+One interpreted, dynamically typed:
 
 * [Perl](http://www.perl.org)
 * [Python](https://www.python.org)
 
-Then you may choose to implement it in one of the following compiled, 
-statically typed languages:
+And one compiled, statically typed:
 
 * [Rust](http://www.rust-lang.org)
 * [OCaml] (https://ocaml.org/)
 
-Extra credit if you also implement in one or more of the following:
+To impress the council, and speed your induction, utilize one or more of the following:
 
 * [Swift] (http://www.apple.com/swift/)
 * [Erlang] (http://learnyousomeerlang.com/content)
 * [LOLCODE] (http://lolcode.org/)
 * [Shakespeare] (http://shakespearelang.sourceforge.net/)
 
-For this challenge you will take in a text file that is given to you as a 
+### Mission Breakdown
+You will take in a text file that is given to you as a 
 [command line argument](https://en.wikipedia.org/wiki/Command-line_interface#Arguments).  That text file will be composed of several lines of
 strings.  You must take each line and determine if that line is a palindrome,
 if it is, then you will print `YES`, else you will print `NO`.  Then you will 
