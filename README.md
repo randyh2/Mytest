@@ -49,7 +49,7 @@ Fizz
 
 Trial #2: The Sphinx
 -------------------------------------------------
-For this trial, you will need to get past The Sphinx using string manipulation. In order to beat the sphinx you must understand palindromes, as that is only what she truly speaks. Your creation will need to be able to tell what are truly her words or not by returning if a string is a palindrome. Then, whether palindrome or not, you must quickly send the string back to her in reverse lexicographical order to confuse her enough to best her at her own deadly game. 
+For this trial, you will need to get past The Sphinx using string manipulation. In order to beat The Sphinx you must understand palindromes, as that is only what she truly speaks. Your creation will need to be able to tell what are truly her words or not by returning if a string is a palindrome. Then you must quickly send each string back to her in reverse lexicographical order to confuse her enough to best her at her own deadly game. 
 
 In order to thoroughly confound the Sphinx you must build your creation in two different languages.
 
