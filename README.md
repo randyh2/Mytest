@@ -1,10 +1,11 @@
 Mordor Challenge
 ================
 
-"One does not simply walk into Mordor. Its black gates are guarded by more than just Orcs. There is evil there that does not sleep. The great Eye is ever watchful. It is a barren wasteland, riddled with fire, ash, and dust. The very air you breathe is a poisonous fume."
+*"One does not simply walk into Mordor. Its black gates are guarded by more than just Orcs. There is evil there that does not sleep. The great Eye is ever watchful. It is a barren wasteland, riddled with fire, ash, and dust. The very air you breathe is a poisonous fume."*
+
 —The Fellowship of the Ring, The Council of Elrond
 
-The Wizards of Middle Earth, forbidden from matching Sauron’s power by the Valar, have pleaded with The High Dev Council of Gondor to send someone of intelligence, wit and bravery to complete a daunting task for them. We have chosen YOU out of a vast number of hopefuls to complete this quest.
+The Wizards of Middle Earth, forbidden from matching Sauron’s power by the Valar, have pleaded with The High Dev Council of Gondor to send someone of intelligence, wit and bravery to complete a daunting task for them. We have chosen **YOU** out of a vast number of hopefuls to complete this quest.
 
 **Destroy the the One Ring in the fires of Mount Doom!**
 
@@ -61,11 +62,11 @@ FizzBuzz
 5
 Fizz
 ```
-Hurry! Sauron’s patrols will be by soon!
+Hurry! Sauron’s patrols will be here soon!
 
 Challenge #2: The Nazgûl
 -------------------------------------------------
-Palindromes are the key to outwitting the Nazgûl. A little known fact is that their cries contain palindromes. You must write a script that can recognize palindromes. Once you can tell whether they are palindromes or not, you can confuse the Nazgûl by sending back each string sorted in reverse lexical order. Then quickly! While they are stunned you can slay them using your Westernesse sword, forged for the purpose of fighting evil!
+Palindromes are the key to outwitting the Nazgûl. A little known fact is that their cries contain palindromes so you must write a script that can recognize them. Once the script can tell them apart, confuse the Nazgûl by sending back each string sorted in reverse lexical order. Then quickly! While they are stunned you can slay them using your Westernesse sword, forged for the purpose of fighting evil!
 
 In order to thoroughly confound The Nazgûl you must build your creation in two different languages.
 
@@ -113,3 +114,5 @@ AY | pooiihhbbaa
 NAY | uutssrnnllliihfeebaPI
 AY | xnaaX
 ```
+
+Fear the Nazgûl no more!
