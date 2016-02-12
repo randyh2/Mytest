@@ -1,13 +1,22 @@
 Mordor Challenge
 ================
 
-**HALT! You have reached the Gates of Mordor! Who goes there?!?** 
+"One does not simply walk into Mordor. Its black gates are guarded by more than just Orcs. There is evil there that does not sleep. The great Eye is ever watchful. It is a barren wasteland, riddled with fire, ash, and dust. The very air you breathe is a poisonous fume."
+—The Fellowship of the Ring, The Council of Elrond
 
-A naive-ish n00b? Perhaps a wizard in training? Or we could be in the presence of a rare Code-Fu Master. Your name was selected by the magical Goblet of ~~Fire~~<sup>tm</sup> Applicants so there must be *something* about you...
+The Wizards of Middle Earth, forbidden from matching Sauron’s power by the Valar, have pleaded with The High Dev Council of Gondor to send someone of intelligence, wit and bravery to complete a daunting task for them. We have chosen YOU out of a vast number of hopefuls to complete this quest.
 
-The first test of your meddle will be to recreate the mysterious Sage of FizzBuzz. This will gain you access to the Sphinx of Wordplay who, if you can write a program to defeat her never ending wit, will grant you passage back to our land and an audience with the High Council of planet Dev Team to continue on to the final stage of the Trials.
+**Destroy the the One Ring in the fires of Mount Doom!**
 
-In order to submit your application for entry you must:
+You have now inherited the One Ring and must deliver it to it’s final resting place. Do not fail on this quest! There will be two major challenges on your way to the mountain.
+
+  1. Sneaking through the Black Gate
+  2. Slaying the Nazgûl
+
+Only by defeating your enemies and presenting the Steward of Gondor your beautiful code of victory may you be granted an audience with the High Dev Council of Gondor!
+
+To present your code:
+
 
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository.  
 2. Develop your solutions.
@@ -16,12 +25,18 @@ In order to submit your application for entry you must:
 4. Commit (`git commit`) and Push (`git push`) your code.
 5. Submit your code to us via a [Pull Request](https://help.github.com/articles/using-pull-requests/).
 
-Trial #1: The Sage of Fizz Buzz
-------------------------
-The only human to pass through these gates is the famed Sage of Fizz Buzz. Using a tool we lovingly call [Haskell](https://www.haskell.org/haskellwiki/Haskell) during this, the era of Functional Programming, you must recreate the magic contained within this sage. Our world is almost completely comprised of JavaScript and FP is the key to properly utilizing its strengths. This paradigm is what allowed the sage to pass unharmed.
+The wizards have provided instructions from their vast store of ancient knowledge on how to overcome each of these deadly obstacles. Pedil edhellen? Galu! 
 
-### Mission Breakdown
-The gate throws 3 numbers at any potential entrant. Based on the patterns below your creation will need take any 3 numbers and match the necessary output. Thus you will write a script that reads 3 [command line arguments](https://en.wikipedia.org/wiki/Command-line_interface#Arguments):
+Challenge #1: The Sage of Fizz Buzz
+------------------------
+It is whispered among wizards that right before Minas Ithil, now Minas Morgul, was overrun by the Ringwraiths, the famed Wizard FizzBuzz designed a secret door there leading to a passage through the Black Gates.  
+
+Lacking proper wizard training, you will need to utilize the immensely powerful [Haskell](https://www.haskell.org/haskellwiki/Haskell), from the era of Functional Programming, to get through the door. 
+
+Our home land is almost completely comprised of JavaScript and FP is the key to properly exercising its strengths. This will test your abilities in the realm of Functional Programming. 
+
+### Instructions from the Wizards
+The door will display 3 numbers described below. You will need to read three numbers in as [command line arguments](https://en.wikipedia.org/wiki/Command-line_interface#Arguments):
 
 1. ***first divisor*** - This is the first divisor you will check against the 
 													dividend.
@@ -36,7 +51,7 @@ You script will cycle through the range of `[0..<upper bound>]` and print one of
 * If divisible by just the `second divisor` then print `Buzz`
 * If not divisible by either divisor then print the dividend itself.
 
-Here is some the sample output for the arguments `2 4 6`:
+Here is the sample output the door requires for the arguments `2 4 6`:
 
 ```bash
 1
@@ -46,12 +61,13 @@ FizzBuzz
 5
 Fizz
 ```
+Hurry! Sauron’s patrols will be by soon!
 
-Trial #2: The Sphinx
+Challenge #2: The Nazgûl
 -------------------------------------------------
-For this trial, you will need to get past The Sphinx using string manipulation. In order to beat The Sphinx you must understand palindromes, as that is only what she truly speaks. Your creation will need to be able to tell what are truly her words or not by returning if a string is a palindrome. Then you must quickly send each string back to her in reverse lexicographical order to confuse her enough to best her at her own deadly game. 
+Palindromes are the key to outwitting the Nazgûl. A little known fact is that their cries contain palindromes. You must write a script that can recognize palindromes. Once you can tell whether they are palindromes or not, you can confuse the Nazgûl by sending back each string sorted in reverse lexical order. Then quickly! While they are stunned you can slay them using your Westernesse sword, forged for the purpose of fighting evil!
 
-In order to thoroughly confound the Sphinx you must build your creation in two different languages.
+In order to thoroughly confound The Nazgûl you must build your creation in two different languages.
 
 One interpreted, dynamically typed:
 
@@ -63,18 +79,18 @@ And one compiled, statically typed:
 * [Rust](http://www.rust-lang.org)
 * [OCaml] (https://ocaml.org/)
 
-To impress the council, and speed your induction, utilize one or more of the following:
+For extra credit, and to win the favor of the Council, implement one or more of the following:
 
 * [Swift] (http://www.apple.com/swift/)
 * [Erlang] (http://learnyousomeerlang.com/content)
 * [LOLCODE] (http://lolcode.org/)
 * [Shakespeare] (http://shakespearelang.sourceforge.net/)
 
-### Mission Breakdown
+### Instructions from the Wizards
 You will take in a text file that is given to you as a 
 [command line argument](https://en.wikipedia.org/wiki/Command-line_interface#Arguments).  That text file will be composed of several lines of
 strings.  You must take each line and determine if that line is a palindrome,
-if it is, then you will print `YES`, else you will print `NO`.  Then you will 
+if it is, then you will print `AY`, else you will print `NAY`.  Then you will 
 print a `|`, then the line sorted in reverse lexical order without the white 
 space characters.
 
@@ -90,10 +106,10 @@ Xanax
 
 Example Output:
 ```bash
-YES | 44332211
-NO | 98433200
-NO | zzpia
-YES | pooiihhbbaa
-NO | uutssrnnllliihfeebaPI
-YES | xnaaX
+AY | 44332211
+NAY | 98433200
+NAY | zzpia
+AY | pooiihhbbaa
+NAY | uutssrnnllliihfeebaPI
+AY | xnaaX
 ```
